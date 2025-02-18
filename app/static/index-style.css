@@ -1,5 +1,69 @@
-.example {
-    background-color: aqua !important;
-    width: 80px !important;
-    height: 80px !important;
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'IranNastaliq';
+    src: url('./fonts/IranNastaliq.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mainpage {
+    height: 100vh; /* تمام صفحه */
+    background-image: url('./images/IMG_9625.webp'); /* تصویر پس‌زمینه */
+    background-size: cover; /* حفظ نسبت تصویر */
+    background-position: center; /* تنظیم موقعیت */
+    background-repeat: no-repeat; /* جلوگیری از تکرار */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.header {
+    font-family: 'IranNastaliq';
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+
+.header-p {
+    font-size: 4rem;
+}
+
+.header-h {
+    font-size: 6rem;
+}
+
+@media (max-width: 1024px) {
+    .header-h {
+        font-size: 3.5rem; /* کوچکتر از دسکتاپ، بزرگ‌تر از موبایل */
+    }
+    .header-p {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-h {
+        font-size: 2.5rem; /* برای تبلت‌های کوچکتر */
+    }
+    .header-p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-h {
+        font-size: 1.5rem; /* برای موبایل */
+    }
+    .header-p {
+        font-size: 1rem;
+    }
 }

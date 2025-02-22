@@ -78,7 +78,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0a3d62;
+    background: rgba(10, 61, 98, 0.7);
     padding: 10px 20px;
     color: white;
 }
@@ -117,4 +117,9 @@ body {
     .menu-button {
         display: block;
     }
+}
+img{
+    position: relative;
+    top: -50vw;
+    z-index: -1;
 }

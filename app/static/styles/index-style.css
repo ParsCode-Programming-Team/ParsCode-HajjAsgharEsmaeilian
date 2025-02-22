@@ -3,10 +3,8 @@
 }
 
 @font-face {
-    font-family: 'IranNastaliq';
-    src: url('./fonts/IranNastaliq.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Nastaliq';
+    src: url('../fonts/IranNastaliq.ttf') format('truetype');
 }
 
 .mainpage {
@@ -27,7 +25,7 @@
 }
 
 .header {
-    font-family: 'IranNastaliq';
+    font-family: 'Nastaliq', serif;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -39,11 +37,11 @@
 }
 
 .header-p {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .header-h {
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 @media (max-width: 1024px) {

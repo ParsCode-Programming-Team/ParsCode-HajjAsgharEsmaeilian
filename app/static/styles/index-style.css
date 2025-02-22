@@ -37,40 +37,15 @@
 }
 
 .header-p {
-    font-size: 3rem;
+    justify-self: center;
+    font-size: clamp(16px, 4vw, 40px);
+    width: clamp(300px, 30vw, 1000px);
 }
 
 .header-h {
-    font-size: 5rem;
+    font-size: clamp(26px, 7vw, 65px);
 }
 
-@media (max-width: 1024px) {
-    .header-h {
-        font-size: 3.5rem;
-    }
-    .header-p {
-        font-size: 2.5rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .header-h {
-        font-size: 2.5rem;
-    }
-    .header-p {
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .header-h {
-        font-size: 1.5rem;
-    }
-    .header-p {
-        font-size: 1rem;
-    }
-
-}
 body {
     direction: rtl;
 }
@@ -130,4 +105,26 @@ body {
     .menu-button {
         display: block;
     }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) translateY(-10px); /* مقدار بالا رفتن */
+    }
+}
+
+.icon-scroll {
+    background: none;
+    border: none;
+    color: white;
+    font-size: clamp(30px, 4vw, 55px);
+    cursor: pointer;
+    align-self: flex-end;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    animation: bounce 1.5s infinite ease-in-out; /* اجرای نامحدود */
 }

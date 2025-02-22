@@ -118,8 +118,3 @@ body {
         display: block;
     }
 }
-img{
-    position: relative;
-    top: -50vw;
-    z-index: -1;
-}

@@ -10,11 +10,11 @@
 }
 
 .mainpage {
-    height: 100vh; /* تمام صفحه */
-    background-image: url('../images/IMG_9625.webp'); /* تصویر پس‌زمینه */
-    background-size: cover; /* حفظ نسبت تصویر */
-    background-position: center; /* تنظیم موقعیت */
-    background-repeat: no-repeat; /* جلوگیری از تکرار */
+    height: 100vh;
+    background-image: url('../images/IMG_9625.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +43,7 @@
 
 @media (max-width: 1024px) {
     .header-h {
-        font-size: 3.5rem; /* کوچکتر از دسکتاپ، بزرگ‌تر از موبایل */
+        font-size: 3.5rem;
     }
     .header-p {
         font-size: 2.5rem;
@@ -52,7 +52,7 @@
 
 @media (max-width: 768px) {
     .header-h {
-        font-size: 2.5rem; /* برای تبلت‌های کوچکتر */
+        font-size: 2.5rem;
     }
     .header-p {
         font-size: 1.5rem;
@@ -61,7 +61,7 @@
 
 @media (max-width: 480px) {
     .header-h {
-        font-size: 1.5rem; /* برای موبایل */
+        font-size: 1.5rem; 
     }
     .header-p {
         font-size: 1rem;

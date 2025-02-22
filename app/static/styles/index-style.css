@@ -11,7 +11,7 @@
 
 .mainpage {
     height: 100vh; /* تمام صفحه */
-    background-image: url('./images/IMG_9625.webp'); /* تصویر پس‌زمینه */
+    background-image: url('../images/IMG_9625.webp'); /* تصویر پس‌زمینه */
     background-size: cover; /* حفظ نسبت تصویر */
     background-position: center; /* تنظیم موقعیت */
     background-repeat: no-repeat; /* جلوگیری از تکرار */

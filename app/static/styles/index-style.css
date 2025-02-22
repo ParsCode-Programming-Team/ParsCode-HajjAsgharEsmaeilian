@@ -10,7 +10,12 @@
 }
 
 .mainpage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
     height: 100vh;
+    width: 100vw;
+    z-index: -1;
     background-image: url('../images/IMG_9625.webp');
     background-size: cover;
     background-position: center;
@@ -61,25 +66,26 @@
 
 @media (max-width: 480px) {
     .header-h {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
     }
     .header-p {
         font-size: 1rem;
     }
-}
-* {
-    padding: 0px;
-    margin: 0px;
+
 }
 body {
     direction: rtl;
 }
 .navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
     display: flex;
-    justify-content: space-between;
+    height: 7vh;
+    width: 100vw;
+    justify-content: space-around;
     align-items: center;
-    background: rgba(10, 61, 98, 0.7);
-    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.6);
     color: white;
 }
 .nav-links {
@@ -93,7 +99,7 @@ body {
 }
 .icon-buttons {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 .icon-button {
     background: none;
@@ -110,6 +116,15 @@ body {
     font-size: 24px;
     cursor: pointer;
 }
+.nav-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;

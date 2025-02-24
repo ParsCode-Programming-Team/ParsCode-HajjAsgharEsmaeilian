@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'Nastaliq';
     src: url('../fonts/IranNastaliq.ttf') format('truetype');
@@ -12,7 +16,7 @@
     top: 0px;
     left: 0px;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     z-index: -1;
     background-image: url('../images/IMG_9625.webp');
     background-size: cover;
@@ -48,14 +52,16 @@
 
 body {
     direction: rtl;
+    display: flex;
+    flex-direction: column;
 }
 .navbar {
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     display: flex;
     height: 7vh;
-    width: 100vw;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     background: rgba(0, 0, 0, 0.6);
@@ -112,11 +118,11 @@ body {
         transform: translateX(-50%) translateY(0);
     }
     50% {
-        transform: translateX(-50%) translateY(-10px); /* مقدار بالا رفتن */
+        transform: translateX(-50%) translateY(-10px);
     }
 }
 
-.icon-scroll {
+#icon-scroll {
     background: none;
     border: none;
     color: white;
@@ -126,5 +132,16 @@ body {
     position: absolute;
     left: 50%;
     bottom: 5%;
-    animation: bounce 1.5s infinite ease-in-out; /* اجرای نامحدود */
+    animation: bounce 1.5s infinite ease-in-out;
+    z-index: 5;
+}
+
+#content {
+    margin-top: 100vh;
+    margin-left: 0px;
+    position: static;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+
 }

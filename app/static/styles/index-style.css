@@ -2,8 +2,12 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
+body {
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    position: relative !important;
 }
 
 @font-face {
@@ -50,11 +54,6 @@ html {
     font-size: clamp(26px, 7vw, 65px);
 }
 
-body {
-    direction: rtl;
-    display: flex;
-    flex-direction: column;
-}
 .navbar {
     position: fixed;
     top: 0px;
@@ -133,7 +132,8 @@ body {
     left: 50%;
     bottom: 5%;
     animation: bounce 1.5s infinite ease-in-out;
-    z-index: 5;
+    z-index: 9999;
+    pointer-events: auto !important;
 }
 
 #content {

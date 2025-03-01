@@ -66,19 +66,23 @@ body {
     background: rgba(0, 0, 0, 0.6);
     color: white;
 }
+
 .nav-links {
     display: flex;
     gap: 15px;
 }
+
 .nav-links a {
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
+
 .icon-buttons {
     display: flex;
     gap: 10px;
 }
+
 .icon-button {
     background: none;
     border: none;
@@ -86,6 +90,7 @@ body {
     font-size: 20px;
     cursor: pointer;
 }
+
 .menu-button {
     display: none;
     background: none;
@@ -94,6 +99,7 @@ body {
     font-size: 24px;
     cursor: pointer;
 }
+
 .nav-content {
     margin-left: 20px;
     margin-right: 20px;
@@ -142,35 +148,22 @@ body {
     position: static;
     height: 100vh;
     width: 100%;
-    
-   
     display: flex;
-    
-   
     height: 100vh;
     margin: 0;
-
 }
 
 .line-box1 {
     width: 100vh;
     height: 30vh;
     background-image: url('../images/download.jfif');
-    border-top: 3px solid rgb(0, 0, 0); 
-    border-right: 3px solid rgb(0, 0, 0); 
-    border-bottom:4px solid black; 
-    
-   
-    
+    border-top: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    border-bottom:4px solid black;
     position: absolute;
     top: 105vh;
     left: 0;
-    
-    
-  
     border-radius: 0 20px 20px 0
-    
-    
 }
 
 .inner-box1 {
@@ -178,14 +171,13 @@ body {
     height: 13vh;
     background-color: rgb(124, 124, 124);
     background-image: url('../images/computer-64.png');
-    background-size: cover; /* اندازه تصویر */
-    background-position: center; /* موقعیت تصویر */
+    background-size: cover; 
+    background-position: center;
     border: 5px solid rgb(4, 4, 59);
     position: absolute;
     right: 2vw;
     top: 1vw;
     border: 2px solid black;
-   
 }
 
 
@@ -193,87 +185,65 @@ body {
     width: 100vh;
     height: 30vh;
     background-image: url('../images/hs.jfif');
-    border-top: 3px solid rgb(0, 0, 0); 
-    border-bottom:4px solid black; 
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom:4px solid black;
     border-left: 2px solid black;
-   
-   
-    
     border-radius: 20px 0 0 20px;
     position: absolute;
     margin-top: 135vh;
     right: 0;
-    
-    
 }
 
 .inner-box2 {
     width: 10vh;
     height: 12vh;
     background-color: rgb(124, 124, 124);
-    
     background-image: url('../images/calculator-64.png');
-    background-size: cover; /* اندازه تصویر */
-    background-position: center; /* موقعیت تصویر */
+    background-size: cover;
+    background-position: center;
     padding: 0px;
     border: 2px solid black;
     position: absolute;
     top: 2vh;
     right: 4vh;
 }
+
 .line-box3{
     width: 100vh;
     height: 30vh;
     background-image: url('../images/br.jfif');
-    border-top: 3px solid rgb(0, 0, 0); 
-    border-right: 3px solid rgb(0, 0, 0); 
-    border-bottom:4px solid black; 
-   
-   
-    
+    border-top: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    border-bottom:4px solid black;
     border-radius: 0 20px 20px 0;
     position: absolute;
     left: 0;
     top: 180vh;
-    
-    
-    
-    
-    
-    
-
 }
+
 .inner-box3{
     width: 12vh;
     height: 12vh;
     background-color:rgb(124, 124, 124); ;
     background-image: url('../images/lightbulb-64.png');
-    background-size: cover; /* اندازه تصویر */
-    background-position: center; /* موقعیت تصویر */
+    background-size: cover;
+    background-position: center;
     position: absolute;
     top: 2vh;
     right: 4vh;
 }
 
-
-
-
 .line-box4 {
     width: 100vh;
     height: 30vh;
     background-image: url('../images/m.jfif');
-    border-top: 3px solid rgb(0, 0, 0); 
-    border-bottom:4px solid black; 
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom:4px solid black;
     border-left: 2px solid black;
-   
-   
-    
     border-radius: 20px 0 0 20px;
     position: absolute;
     margin-top:213vh;
     right: 0;
-    
-    
 }
 
 .inner-box4{
@@ -281,8 +251,8 @@ body {
     height: 12vh;
     background-color:rgb(124, 124, 124); ;
     background-image: url('../images/ruler-64.png');
-    background-size: cover; /* اندازه تصویر */
-    background-position: center; /* موقعیت تصویر */
+    background-size: cover;
+    background-position: center;
     position: absolute;
     top: 2vh;
     right: 4vh;
@@ -291,20 +261,13 @@ body {
     width: 100vh;
     height: 30vh;
     background-image: url('../images/tar.jfif');
-    border-top: 3px solid rgb(0, 0, 0); 
-    border-right: 3px solid rgb(0, 0, 0); 
-    border-bottom:4px solid black; 
-   
-    
+    border-top: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    border-bottom:4px solid black;
     position: absolute;
     left: 0;
     top: 260vh;
-    
-    
-  
     border-radius: 0 20px 20px 0
-    
-    
 }
 
 .inner-box5{
@@ -312,8 +275,8 @@ body {
     height: 12vh;
     background-color:rgb(124, 124, 124); ;
     background-image: url('../images/person\ running-64.png');
-    background-size: cover; /* اندازه تصویر */
-    background-position: center; /* موقعیت تصویر */
+    background-size: cover;
+    background-position: center;
     position: absolute;
     top: 2vh;
     right: 4vh;
@@ -323,18 +286,13 @@ body {
     width: 100vh;
     height: 30vh;
     background-image: url('../images/tv.jfif');
-    border-top: 3px solid rgb(0, 0, 0); 
-    border-bottom:4px solid black; 
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom:4px solid black;
     border-left: 2px solid black;
-   
     position: absolute;
     top: 300vh;
     right: 0;
-    
-  
     border-radius: 20px 0 0 20px
-    
-    
 }
 
 .inner-box6{
@@ -342,10 +300,9 @@ body {
     height: 12vh;
     background-color:rgb(124, 124, 124); ;
     background-image: url('../images/camera-64.png');
-    background-size: cover; /* اندازه تصویر */
-    background-position: center; /* موقعیت تصویر */
+    background-size: cover;
+    background-position: center;
     position: absolute;
     top: 2vh;
     right: 4vh;
 }
-

@@ -145,3 +145,86 @@ body {
     background-color: white;
 
 }
+/* والد اصلی */
+.container {
+    width: 70%;
+    margin: 30px auto;
+    position: relative;
+    background-color:rgba(255, 220, 123, 0.38);
+  }
+  
+  /* بخش خط بالا */
+  .line-wrapper {
+    position: relative;
+    height: 1px; /* ارتفاع خط افقی */
+    margin-bottom: 20px; /* فاصله از محتوای پایین */
+  }
+  
+  /* خط افقی با گرادیان (فضای خالی در وسط) */
+  .horizontal-line {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, 
+                  black 0%, 
+                  black 10%, 
+                  transparent 50%, 
+                  black 90%, 
+                  black 100%);
+    position: relative;
+  }
+  
+  /* خطوط عمودی */
+  .vertical-line {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 20cm;  /* ارتفاع خطوط عمودی؛ به دلخواه تغییر دهید */
+    background-color: black;
+  }
+  .vertical-line.left {
+    left: 0;
+  }
+  .vertical-line.right {
+    right: 0;
+  }
+  
+  /* متن روی خط افقی */
+  .text {
+    
+    position: absolute;
+    top: -10px; /* تنظیم موقعیت عمودی متن نسبت به خط */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(228, 220, 198);
+    padding: 0 10px;
+    font-size: 20px;
+    color: white; /* رنگ متن سفید */
+    font-weight: bold; /* برای خوانایی بهتر */
+    text-shadow:  
+        -2px -2px 0 black,  
+         2px -2px 0 black,  
+        -2px  2px 0 black,  
+         2px  2px 0 black; /* ایجاد حاشیه مشکی در چهار جهت */
+}
+  
+  /* بخش محتوای پایین */
+  .content {
+    position: relative;
+  }
+  
+  /* توضیحات */
+  .text2 {
+    font-size: 18px;
+    text-align:center ;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  /* تنظیم تصویر به صورت مرکز */
+  .img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid black; /* حاشیه سیاه */
+    border-radius: 5%; /* گرد کردن حاشیه برای ایجاد شکل دایره‌ای */
+}

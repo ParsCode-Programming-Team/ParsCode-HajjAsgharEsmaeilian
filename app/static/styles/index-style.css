@@ -148,15 +148,16 @@ body {
     position: static;
     height: 100vh;
     width: 100%;
-    display: flex;
-    height: 100vh;
-    margin: 0;
-}
+    background-color: white;
 
+}
 .line-box1 {
     width: 100vh;
     height: 30vh;
     background-image: url('../images/download.jfif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
     border-top: 3px solid rgb(0, 0, 0);
     border-right: 3px solid rgb(0, 0, 0);
     border-bottom:4px solid black;
@@ -185,12 +186,15 @@ body {
     width: 100vh;
     height: 30vh;
     background-image: url('../images/hs.jfif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
     border-top: 3px solid rgb(0, 0, 0);
     border-bottom:4px solid black;
     border-left: 2px solid black;
     border-radius: 20px 0 0 20px;
     position: absolute;
-    margin-top: 135vh;
+    margin-top: 35vh;
     right: 0;
 }
 
@@ -212,6 +216,9 @@ body {
     width: 100vh;
     height: 30vh;
     background-image: url('../images/br.jfif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
     border-top: 3px solid rgb(0, 0, 0);
     border-right: 3px solid rgb(0, 0, 0);
     border-bottom:4px solid black;
@@ -226,6 +233,7 @@ body {
     height: 12vh;
     background-color:rgb(124, 124, 124); ;
     background-image: url('../images/lightbulb-64.png');
+    border: 2px solid black;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -237,12 +245,15 @@ body {
     width: 100vh;
     height: 30vh;
     background-image: url('../images/m.jfif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
     border-top: 3px solid rgb(0, 0, 0);
     border-bottom:4px solid black;
     border-left: 2px solid black;
     border-radius: 20px 0 0 20px;
     position: absolute;
-    margin-top:213vh;
+    margin-top:110vh;
     right: 0;
 }
 
@@ -251,6 +262,7 @@ body {
     height: 12vh;
     background-color:rgb(124, 124, 124); ;
     background-image: url('../images/ruler-64.png');
+    border: 2px solid black;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -261,12 +273,15 @@ body {
     width: 100vh;
     height: 30vh;
     background-image: url('../images/tar.jfif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
     border-top: 3px solid rgb(0, 0, 0);
     border-right: 3px solid rgb(0, 0, 0);
     border-bottom:4px solid black;
     position: absolute;
     left: 0;
-    top: 260vh;
+    top: 255vh;
     border-radius: 0 20px 20px 0
 }
 
@@ -275,6 +290,7 @@ body {
     height: 12vh;
     background-color:rgb(124, 124, 124); ;
     background-image: url('../images/person\ running-64.png');
+    border: 2px solid black;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -286,11 +302,14 @@ body {
     width: 100vh;
     height: 30vh;
     background-image: url('../images/tv.jfif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
     border-top: 3px solid rgb(0, 0, 0);
     border-bottom:4px solid black;
     border-left: 2px solid black;
     position: absolute;
-    top: 300vh;
+    top: 293vh;
     right: 0;
     border-radius: 20px 0 0 20px
 }
@@ -300,9 +319,237 @@ body {
     height: 12vh;
     background-color:rgb(124, 124, 124); ;
     background-image: url('../images/camera-64.png');
+    border: 2px solid black;
     background-size: cover;
     background-position: center;
     position: absolute;
     top: 2vh;
     right: 4vh;
 }
+@media screen and (max-width: 600px) {
+   .line-box1{
+   width: 40vh;
+   height: 15vh;
+   } 
+   .line-box2{
+    width: 40vh;
+    height: 15vh;
+    margin-top: 20vh;
+    
+    } 
+    .line-box3{
+        width: 40vh;
+        height: 15vh;
+        top: 148vh;
+    }
+    .line-box4{
+        width: 40vh;
+        height: 15vh;
+        margin-top:60vh;
+        
+    }
+    .line-box5{
+        width: 40vh;
+        height: 15vh;
+        top: 190vh;
+        
+    }
+    .line-box6{
+        width: 40vh;
+        height: 15vh;
+        top: 215vh;
+        
+    }
+    .inner-box1{
+        width: 7vh;
+    height: 7vh;
+    top: 1vh;
+    right: 1vh;
+    }
+    .inner-box2{
+        width: 7vh;
+    height: 7vh;
+    top: 1vh;
+    right: 1vh;
+    }
+    .inner-box3{
+        width: 7vh;
+    height: 7vh;
+    top: 1vh;
+    right: 1vh;
+    }
+    .inner-box4{
+        width: 7vh;
+    height: 7vh;
+    top: 1vh;
+    right: 1vh;
+    }
+    .inner-box5{
+        width: 7vh;
+    height: 7vh;
+    top: 1vh;
+    right: 1vh;
+    }
+    .inner-box6{
+        width: 7vh;
+    height: 7vh;
+    top: 1vh;
+    right: 1vh;
+    }
+
+    
+    
+   
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .line-box1{
+        width: 60vh;
+        height: 20vh;
+        } 
+        .line-box2{
+            width: 60vh;
+            height: 20vh;
+         margin-top: 23vh;
+         
+         } 
+         .line-box3{
+            width: 60vh;
+        height: 20vh;
+             top: 155vh;
+         }
+         .line-box4{
+            width: 60vh;
+            height: 20vh;
+             margin-top:73vh;
+             
+         }
+         .line-box5{
+            width: 60vh;
+            height: 20vh;
+             top: 205vh;
+             
+         }
+         .line-box6{
+            width: 60vh;
+            height: 20vh;
+             top: 230vh;
+             
+         }
+         .inner-box1{
+             width: 7vh;
+         height: 7vh;
+         top: 1vh;
+         right: 1vh;
+         }
+         .inner-box2{
+             width: 7vh;
+         height: 7vh;
+         top: 1vh;
+         right: 1vh;
+         }
+         .inner-box3{
+             width: 7vh;
+         height: 7vh;
+         top: 1vh;
+         right: 1vh;
+         }
+         .inner-box4{
+             width: 7vh;
+         height: 7vh;
+         top: 1vh;
+         right: 1vh;
+         }
+         .inner-box5{
+             width: 7vh;
+         height: 7vh;
+         top: 1vh;
+         right: 1vh;
+         }
+         .inner-box6{
+             width: 7vh;
+         height: 7vh;
+         top: 1vh;
+         right: 1vh;
+         }
+    
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  
+    .line-box1{
+        width: 80vh;
+        height: 22vh;
+        } 
+        .line-box2{
+            width: 80vh;
+        height: 22vh;
+         margin-top: 23vh;
+         
+         } 
+         .line-box3{
+            width: 80vh;
+            height: 22vh;
+             top: 155vh;
+         }
+         .line-box4{
+            width: 80vh;
+        height: 22vh;
+             margin-top:73vh;
+             
+         }
+         .line-box5{
+            width: 80vh;
+            height: 22vh;
+             top: 205vh;
+             
+         }
+         .line-box6{
+            width: 80vh;
+            height: 22vh;
+             top: 230vh;
+             
+         }
+         .inner-box1{
+             width: 7vh;
+         height: 7vh;
+         top: 1vh;
+         right: 1vh;
+         }
+         .inner-box2{
+             width: 7vh;
+         height: 7vh;
+         top: 1vh;
+         right: 1vh;
+         }
+         .inner-box3{
+             width: 7vh;
+         height: 7vh;
+         top: 1vh;
+         right: 1vh;
+         }
+         .inner-box4{
+             width: 7vh;
+         height: 7vh;
+         top: 1vh;
+         right: 1vh;
+         }
+         .inner-box5{
+             width: 7vh;
+         height: 7vh;
+         top: 1vh;
+         right: 1vh;
+         }
+         .inner-box6{
+             width: 7vh;
+         height: 7vh;
+         top: 1vh;
+         right: 1vh;
+         }
+    
+}
+
+   
+

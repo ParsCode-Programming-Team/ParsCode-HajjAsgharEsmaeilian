@@ -145,3 +145,57 @@ body {
     background-color: white;
 
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefbe9;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    display: block;
+}
+.footer {
+    background: #fff8e1;
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+.footer-line{
+    width: 70px;
+    height: 3px;
+    background-color: orange;
+    order: -1;
+}
+.about {
+    background: #fde1c3;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+.address {
+    background: #fcd7b6;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.social-icons {
+    margin-top: 10px;
+}
+.social-icons a {
+    text-decoration: none;
+    margin: 0 5px;
+    display: inline-block;
+    background: #ffcc99;
+    padding: 10px;
+    border-radius: 50%;
+}
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #000000;
+}

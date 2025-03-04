@@ -66,19 +66,23 @@ body {
     background: rgba(0, 0, 0, 0.6);
     color: white;
 }
+
 .nav-links {
     display: flex;
     gap: 15px;
 }
+
 .nav-links a {
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
+
 .icon-buttons {
     display: flex;
     gap: 10px;
 }
+
 .icon-button {
     background: none;
     border: none;
@@ -86,6 +90,7 @@ body {
     font-size: 20px;
     cursor: pointer;
 }
+
 .menu-button {
     display: none;
     background: none;
@@ -94,6 +99,7 @@ body {
     font-size: 24px;
     cursor: pointer;
 }
+
 .nav-content {
     margin-left: 20px;
     margin-right: 20px;
@@ -229,4 +235,197 @@ body {
     margin: 0 auto;
     border: 2px solid black;
     border-radius: 5%;
+}
+.line-box1 {
+    width: 100vh;
+    height: 30vh;
+    background-image: url('../images/download.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    border-bottom:4px solid black;
+    position: absolute;
+    top: 105vh;
+    left: 0;
+    border-radius: 0 20px 20px 0
+}
+
+.line-box2 {
+    width: 100vh;
+    height: 30vh;
+    background-image: url('../images/hs.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom:4px solid black;
+    border-left: 2px solid black;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    margin-top: 35vh;
+    right: 0;
+}
+
+.line-box3{
+    width: 100vh;
+    height: 30vh;
+    background-image: url('../images/br.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    border-bottom:4px solid black;
+    border-radius: 0 20px 20px 0;
+    position: absolute;
+    left: 0;
+    top: 180vh;
+}
+
+.line-box4 {
+    width: 100vh;
+    height: 30vh;
+    background-image: url('../images/m.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom:4px solid black;
+    border-left: 2px solid black;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    margin-top:110vh;
+    right: 0;
+}
+
+.line-box5{
+    width: 100vh;
+    height: 30vh;
+    background-image: url('../images/tar.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 3px solid rgb(0, 0, 0);
+    border-right: 3px solid rgb(0, 0, 0);
+    border-bottom:4px solid black;
+    position: absolute;
+    left: 0;
+    top: 255vh;
+    border-radius: 0 20px 20px 0
+}
+
+.line-box6{
+    width: 100vh;
+    height: 30vh;
+    background-image: url('../images/tv.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom:4px solid black;
+    border-left: 2px solid black;
+    position: absolute;
+    top: 293vh;
+    right: 0;
+    border-radius: 20px 0 0 20px
+}
+
+
+@media screen and (max-width: 600px) {
+   .line-box1{
+   width: 40vh;
+   height: 15vh;
+   }
+   .line-box2{
+    width: 40vh;
+    height: 15vh;
+    margin-top: 20vh;
+    }
+    .line-box3{
+        width: 40vh;
+        height: 15vh;
+        top: 148vh;
+    }
+    .line-box4{
+        width: 40vh;
+        height: 15vh;
+        margin-top:62vh;
+    }
+    .line-box5{
+        width: 40vh;
+        height: 15vh;
+        top: 190vh;
+    }
+    .line-box6{
+        width: 40vh;
+        height: 15vh;
+        top: 212vh;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    .line-box1 {
+        width: 60vh;
+        height: 20vh;
+    }
+    .line-box2 {
+        width: 60vh;
+        height: 20vh;
+        margin-top: 23vh;
+    }
+    .line-box3 {
+        width: 60vh;
+        height: 20vh;
+        top: 155vh;
+    }
+    .line-box4 {
+        width: 60vh;
+        height: 20vh;
+        margin-top:73vh;
+    }
+    .line-box5 {
+        width: 60vh;
+        height: 20vh;
+        top: 205vh;
+    }
+    .line-box6 {
+        width: 60vh;
+        height: 20vh;
+        top: 230vh;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+    .line-box1 {
+        width: 80vh;
+        height: 22vh;
+    }
+    .line-box2{
+        width: 80vh;
+        height: 22vh;
+        margin-top: 23vh;
+    }
+    .line-box3{
+        width: 80vh;
+        height: 22vh;
+        top: 155vh;
+    }
+    .line-box4{
+        width: 80vh;
+        height: 22vh;
+        margin-top:73vh;
+    }
+    .line-box5{
+        width: 80vh;
+        height: 22vh;
+        top: 205vh;
+    }
+    .line-box6{
+        width: 80vh;
+        height: 22vh;
+        top: 230vh;
+    }
 }

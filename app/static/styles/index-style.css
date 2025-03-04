@@ -149,7 +149,92 @@ body {
     height: 100vh;
     width: 100%;
     background-color: white;
+}
 
+.container {
+    width: 95%;
+    margin: 20px auto;
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.line-wrapper {
+    position: relative;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right,
+                  black 0%,
+                  black 10%,
+                  transparent 50%,
+                  black 90%,
+                  black 100%);
+    position: relative;
+}
+
+.vertical-line {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: clamp(250px, 110vh, 900px);
+    background-color: black;
+}
+
+.vertical-line.left {
+    left: 0;
+}
+
+.vertical-line.right {
+    right: 0;
+}
+
+.text {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: (255, 220, 123);
+    padding: 0 10px;
+    font-size: 20px;
+    color: white;
+    background-color: white;
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+
+.p-content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.text2 {
+    font-size: clamp(11px, 2vw, 22px);
+    text-align:center ;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 5%;
 }
 .line-box1 {
     width: 100vh;

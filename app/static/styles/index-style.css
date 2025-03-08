@@ -361,6 +361,24 @@ body {
     margin-bottom: 20px;
 }
 
+.textContainer-right {
+    width: 50%;
+    color: #ffffff;
+    float: right;
+    text-align: right;
+    direction: ltr;
+    padding: 10px;
+}
+
+.textContainer-left {
+    color: #ffffff;
+    width: 50%;
+    float: left;
+    text-align: left;
+    direction: ltr;
+    padding: 10px;
+}
+
 @media screen and (max-width: 600px) {
     .line-box1, .line-box2, .line-box3, .line-box4, .line-box5, .line-box6 {
         width: 40vh;

@@ -344,6 +344,15 @@ body {
     margin-bottom: 20px;
 }
 
+.textContainer5{
+    color: #ffffff;
+    width: 50%;
+    float: left;
+    text-align: left;
+    direction: ltr; 
+    padding: 10px; 
+}
+
 .line-box6 {
     width: 50%;
     height: 30vh;
@@ -359,6 +368,15 @@ body {
     margin-top: 20px;
     margin-left: auto;
     margin-bottom: 20px;
+}
+
+.textContainer6{
+    width: 50%;
+    color: #ffffff;
+    float: right;
+    text-align: right;
+    direction: ltr; 
+    padding: 10px; 
 }
 
 @media screen and (max-width: 600px) {

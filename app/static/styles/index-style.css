@@ -515,3 +515,25 @@ body {
         padding: 5px;
     }
 }
+
+#scrollToTop {
+    position: fixed;
+    bottom: clamp(20px, 5vw, 40px);
+    right: clamp(20px, 5vw, 40px);;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#scrollToTop.show {
+    opacity: 1;
+    transform: translateY(0);
+}

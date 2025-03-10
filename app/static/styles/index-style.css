@@ -10,7 +10,7 @@ body {
     direction: rtl;
     display: flex;
     flex-direction: column;
-    z-index: -1;
+    z-index: 0;
 }
 
 @font-face {
@@ -24,7 +24,7 @@ body {
     left: 0px;
     height: 100vh;
     width: 100%;
-    z-index: -1;
+    z-index: 0;
     background-image: url('../images/IMG_9625.webp');
     background-size: cover;
     background-position: center;
@@ -68,6 +68,7 @@ body {
     align-items: center;
     background: rgba(0, 0, 0, 0.6);
     color: white;
+    z-index: 1;
 }
 
 .nav-links {
@@ -141,7 +142,7 @@ body {
     left: 50%;
     bottom: 5%;
     animation: bounce 1.5s infinite ease-in-out;
-    z-index: 9999;
+    z-index: 1;
 }
 
 .content {
@@ -366,7 +367,7 @@ body {
     color: #ffffff;
     float: right;
     text-align: right;
-    direction: ltr;
+    direction: rtl;
     padding: 10px;
 }
 
@@ -374,8 +375,8 @@ body {
     color: #ffffff;
     width: 50%;
     float: left;
-    text-align: left;
-    direction: ltr;
+    text-align: right;
+    direction: rtl;
     padding: 10px;
 }
 

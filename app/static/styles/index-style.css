@@ -159,14 +159,11 @@ body {
 .container-p-pic {
     top: -5%;
     width: 95% !important;
-    max-width: 1200px;
     margin: 0;
     background-color: white;
     display: flex;
     flex-direction: column;
-    top: -5%;
     align-self: center;
-    max-width: none !important;
 }
 
 .line-wrapper {
@@ -234,7 +231,7 @@ body {
 
 .text2 {
     font-size: clamp(11px, 2vw, 22px);
-    text-align:center ;
+    text-align: right;
     margin-bottom: 20px;
     padding: 10px;
 }

@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+
+
 body {
     width: 100%;
     margin: 0;

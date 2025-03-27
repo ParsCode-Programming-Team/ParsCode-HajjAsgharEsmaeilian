@@ -418,6 +418,7 @@ body {
     flex-direction: column;
     order: 9000;
     font-size: clamp(12px, 2vw, 16px);
+    bottom: 0px;
 }
 
 .fhead-container {
@@ -425,7 +426,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 75%;
-    width: 9%;
+    width: clamp(100px, 9%, 500px);
 }
 
 .footer-topline {
@@ -441,6 +442,7 @@ body {
     display: flex;
     flex-direction: column;
     order: 0;
+    gap: 5px;
 }
 
 .footer-bottomline {
@@ -448,7 +450,7 @@ body {
     height: 3px;
     background-color: orange;
     order: 1;
-    margin: 20px;
+    margin: 10px;
     margin-right: 0;
 }
 
@@ -494,6 +496,7 @@ body {
 }
 
 .copyright {
+    direction: ltr;
     text-align: center;
     margin-top: 10px;
     font-size: clamp(10px, 1.5vw, 14px);
@@ -531,6 +534,7 @@ body {
     opacity: 0;
     transform: translateY(100px);
     transition: opacity 0.3s ease, transform 0.3s ease;
+    order: 9998;
 }
 
 #scrollToTop.show {
